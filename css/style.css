@@ -50,9 +50,13 @@ h1 {
 .title-bold {
   font-weight: 900;
 }
+#blue-text{
+  font-weight: 900;
+  color:steelblue;
+}
 
 /* Hero Styling */
-#hero-block {
+.hero-block {
   background-image: url(../images/hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,7 +73,7 @@ h2 {
   font-weight: 100;
   padding: .5em;
 }
-#hero-block button {
+.hero-block button {
   display: inline-block;
   background-color: steelblue;
   color: #fff;
@@ -80,7 +84,7 @@ h2 {
   border-radius: 6em;
   transition: background 200ms linear;
 }
-#hero-block button:hover {
+.hero-block button:hover {
   background-color: darkslateblue;
 }
 
@@ -97,4 +101,16 @@ footer {
 footer p {
   font-size: .75em;
   font-weight: 100;
+}
+
+/* About Page Styling */
+#about-block {
+  background-color: #fff;
+  padding: 4em;
+  width: 75%;
+  border-radius: 5px;
+  box-shadow: 0 0 15 0 #000;
+}
+.about-text {
+  padding-top: 1em;
 }
