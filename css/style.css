@@ -52,7 +52,7 @@ h1 {
 }
 
 /* Hero Styling */
-#hero-block {
+#home-hero-block {
   background-image: url(../images/hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,13 +63,14 @@ h1 {
   justify-content: center;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.25);
 }
+
 h2 {
   color: #fff;
   font-size: 5em;
   font-weight: 100;
   padding: .5em;
 }
-#hero-block button {
+#home-hero-block button {
   display: inline-block;
   background-color: steelblue;
   color: #fff;
@@ -80,7 +81,7 @@ h2 {
   border-radius: 6em;
   transition: background 200ms linear;
 }
-#hero-block button:hover {
+#home-hero-block button:hover {
   background-color: darkslateblue;
 }
 
@@ -97,4 +98,32 @@ footer {
 footer p {
   font-size: .75em;
   font-weight: 100;
+}
+
+/* About Page Styling */
+#about-hero-block {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.about-hero-image-conatiner {
+  background-image: url(../images/about-hero-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50vw;
+  height: 100vh;
+}
+#about-block {
+  width: 50vw;
+  padding: 2em 5em;
+}
+h3 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+.about-text {
+  margin: 1em 0;
 }
