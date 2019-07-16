@@ -1,7 +1,7 @@
 
 // Missions Section
   // Get app container
-  var app = document.querySelector('#mission-app');
+  var missionsApp = document.querySelector('#mission-app');
 
   // Store button id as variable
   var button = document.querySelector('#more-missions')
@@ -44,7 +44,7 @@
       var randomIndex = Math.floor(Math.random() * 10);
 
       // Add markup to injected sections
-      app.innerHTML =
+      missionsApp.innerHTML =
         '<div class="missions-card">' +
           '<p>' +
             '<span>Mission Name:</span> &nbsp; <span class="mission_name">' + data[randomIndex].mission_name + '</span>' +
